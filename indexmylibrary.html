@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Library</title>
+
+        <!-- links -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/styles/main.css">
+    </head>
+
+    <body>
+        <div class="container">
+        <header>
+            <h1>Libray one</h1>
+            <p>Enter book details:</p>
+        </header>
+        <main>
+            <form action="" method="">
+                <label for="author">Author
+                    <input type="text" placeholder="Author" class="input" id="author" name="author">
+                </label>
+
+                <label for="book-title">Book Title
+                    <input type="text" placeholder="Enter Title" class="input" id="book-title" name="title">
+                </label>
+
+                <label for="pages">Pages
+                    <input type="text" placeholder="Pages" class="input" id="pages" name="pages"> 
+                </label>
+
+                <label for="isRead">Status
+                    <select name="status" class="input" id="isRead">
+                        <option value="read">Read</option>
+                        <option value="not read">Not read</option>
+                    </select>
+                </label>
+
+            </form>
+                <button id="add">Add Book</button>
+                
+            <table>
+                <!-- Book collection javaScript -->
+            </table>
+
+        </main>
+    </div>
+        <script src="mylibrary.js"></script>
+    </body>
+</html>
